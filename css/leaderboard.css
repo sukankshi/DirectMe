@@ -1,0 +1,56 @@
+
+body {
+    background-color:#00ff90;
+    background-image:url('../images/directme.jpg');
+    height:inherit;
+    font-family: 'Slabo 27px', serif;
+    margin:0;
+    padding:20px;
+    letter-spacing:1px;
+    color:#1b5729;
+}
+
+.container {
+    margin: auto;
+}
+
+.heading {
+    text-align: center;
+}
+
+    .heading h1 {
+        font-size: 53px;
+        padding-bottom:30px;
+    }
+
+table tr td {
+    text-transform:capitalize;
+    border-color:darkgreen;
+}
+
+table tr th {
+    text-align:center;
+    border-color:darkgreen;
+}
+
+.heading {
+    width:600px;
+}
+
+.table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th {
+    border-color:darkolivegreen;
+}
+
+a, span,  a:hover, a:visited, a:focus {
+    padding:3px;
+    padding-left:5px;
+    padding-right:5px;
+    background-color:darkgreen;
+    color:white;
+    margin:5px;
+    text-decoration:none;
+}
+
+.previousLogs {
+    width:70%;
+}
